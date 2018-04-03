@@ -36,7 +36,7 @@ function initMap() {
      function getAPIdata() {
 
      	// get latest weather
-     	fetch('http://api.openweathermap.org/data/2.5/forecast?q=Anaheim,us&appid=b0c8dafa512a0134e90df6ece3c2b7a2')
+     	fetch('http://api.openweathermap.org/data/2.5/forecast?q=Anaheim,us&appid=d9155b4f59d6df167bbe943731f873a7')
 
      	// parse to JSON format
      	.then(function(response) {
