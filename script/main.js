@@ -4,6 +4,7 @@ function initMap() {
   //ik heb gekozen voor disneyland in California
   var options = {
     zoom:13,
+    center:{lat:33.812511,lng:-117.918976},
     styles: [
   {
     "elementType": "geometry",
@@ -278,8 +279,7 @@ function initMap() {
       }
     ]
   }
-],
-    center:{lat:33.812511,lng:-117.918976}
+]
   }
 
   //map
