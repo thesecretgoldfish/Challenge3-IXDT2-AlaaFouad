@@ -1,0 +1,83 @@
+* {
+margin: 0;
+padding: 0;
+}
+body {
+  background: url('../img/landscape.jpg');
+  height: 100vh;
+  overflow: hidden;
+}
+#map {
+  width: 100vw;
+  height: 50vh;
+}
+h1 {
+  font-family: Typewriter;
+  color: #fff;
+  text-align: center;
+}
+
+#weather {
+  display: flex;
+  flex-flow: row;
+  flex-wrap:wrap;
+  justify-content: space-between;
+  font-family: Montserrat;
+}
+@media only screen and (max-width: 320px) {
+  #map {
+    width: 100vw;
+    height: 50vh;
+  }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 720px) {
+  #map {
+    width: 100vw;
+    height: 50vh;
+  }
+}
+
+@media only screen and (min-width: 721px) and (max-width: 1024px) {
+main {
+  display: flex;
+  flex-flow: row;
+}
+#map {
+  width: 65vw;
+}
+}
+
+@media only screen and (min-width: 1025px) {
+main {
+  display: flex;
+  flex-flow: row;
+
+}
+#map {
+  width: 60vw;
+  height: 100vh;
+}
+#weather {
+ width: 40vw;
+ height: 100vh;
+ display: flex;
+ flex-flow: column;
+}
+#weather > .forecastMoment {
+	width: 100%;
+	margin: 1px;
+	padding: 2px 0px;
+	text-align: center;
+	background-color: rgba(140,159,189,.6);
+	border-radius: 6px;
+	color: #ace7ef;
+	font-size: 0.9em;
+}
+
+.temp {
+	font-weight: bold;
+	color: #dffdff;
+	font-size: 1.2em;
+}
+}
