@@ -22,7 +22,7 @@ h1 {
   flex-flow: row;
   flex-wrap:wrap;
   justify-content: space-between;
-  font-family: Montserrat;
+  font-family: sans-serif;
 }
 @media only screen and (max-width: 320px) {
   #map {
