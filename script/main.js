@@ -308,7 +308,7 @@ function initMap() {
        }
      }
 
-     function getAPIdata() {
+/*     function getAPIdata() {
 
      	// get latest weather
      	fetch('http://api.openweathermap.org/data/2.5/forecast?q=Anaheim,us&APPID=d9155b4f59d6df167bbe943731f873a7')
@@ -332,9 +332,8 @@ function initMap() {
      	});
      }
 //hier 1.
-     /**
-      * Render weather listing
-      */
+     // Render weather listing
+
      function onAPISucces(response) {
 
      	var weatherList = response.list;
@@ -360,26 +359,23 @@ function initMap() {
      	}
      }
 
-     /**
-      * Error
-      */
+     // Error
+
      function updateUIError() {
      	var weatherBox = document.getElementById('weather');
      	weatherBox.className = 'hidden';
      }
 
-     /**
-      * Format date
-      */
+     //Format date
+
      function formDate(date) {
      	var day = date.getDate();
      	var month = date.getMonth() + 1;
      	return day +'/'+ month;
      }
 
-     /**
-      * Format time
-      */
+     // Format time
+
      function formTime(date) {
      	var hours = date.getHours();
      	if(hours<10){
@@ -393,4 +389,4 @@ function initMap() {
      }
 
      // init data stream
-     getAPIdata();
+     getAPIdata();*/
