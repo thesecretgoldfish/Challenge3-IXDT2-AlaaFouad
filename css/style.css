@@ -8,11 +8,17 @@ body {
 h1 {
   width: 100vw;
   background-color: #06dbe2;
-  color: rgb(221, 0,96);
+  color: white;
   text-transform: uppercase;
   font-family: sans-serif;
   text-align: center;
   font-weight: lighter;
+}
+#weather::before {
+  font-family: Montserrat;
+  font-weight: lighter;
+  color: white;
+  text-align: center;
 }
 #weather > .forecastMoment {
 	width: 100%;
@@ -27,9 +33,11 @@ h1 {
 
 @media only screen and (max-width: 320px) {
 
-h1 {
+  h1 {
   font-size: 1rem;
-  }  #weather {
+  margin-bottom: 5px;
+  }
+  #weather {
   	font-size: 1.2em;
     display: flex;
     flex-flow: row;
@@ -40,6 +48,18 @@ h1 {
   #weather > .forecastMoment {
     width: 45%;
     margin: 2px 0px;
+  }
+  #weather::before {
+    content: 'Check the weather, be ready to be an earthling once again!';
+    background-color: rgba(122,122,125, .7);
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 100vw;
+
+  }
+  #map {
+    width: 100vw;
+    height: 100vw;
   }
 }
 /*
