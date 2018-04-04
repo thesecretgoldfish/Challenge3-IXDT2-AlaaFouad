@@ -50,7 +50,7 @@ h1 {
     margin: 2px 0px;
   }
   #weather::before {
-    content: 'Check the weather, be ready to be an earthling once again!';
+    content: 'Check the weather, be ready to be an earthling once again! Prepare thyself for Disney.';
     background-color: rgba(122,122,125, .7);
     margin-top: 5px;
     margin-bottom: 5px;
