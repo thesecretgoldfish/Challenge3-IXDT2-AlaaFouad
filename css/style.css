@@ -30,6 +30,28 @@ flex-flow: column;
   width: 100vw;
   height: 100vh;
 }
+#weather {
+ width: 100vw;
+ height: 30vh;
+ display: flex;
+ flex-flow: column;
+}
+#weather > .forecastMoment {
+	width: 100%;
+	margin: 2px;
+	padding: 2px 0px;
+	text-align: center;
+	background-color: rgba(140,159,189,.6);
+	border-radius: 6px;
+	color: #ace7ef;
+	font-size: 1.1em;
+}
+
+.temp {
+	font-weight: bold;
+	color: #dffdff;
+	font-size: 1.4em;
+}
 }
 
 @media only screen and (min-width: 321px) and (max-width: 720px) {
