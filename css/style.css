@@ -2,6 +2,9 @@
 margin: 0;
 padding: 0;
 }
+body {
+ background: url('../img/landscape.jpg');
+}
 h1 {
   width: 100vw;
   background-color: #06dbe2;
@@ -39,15 +42,7 @@ h1 {
     margin: 2px 0px;
   }
 }
-/* body {
-  background: url('../img/landscape.jpg');
-}
-h1 {
-  font-family: Typewriter;
-  color: #fff;
-  text-align: center;
-}
-
+/*
 #weather {
   display: flex;
   flex-flow: row;
