@@ -18,42 +18,47 @@ h1 {
   justify-content: space-between;
   font-family: sans-serif;
 }
+
 @media only screen and (max-width: 320px) {
-h1 {
-  font-size: 2rem;
-}
-main {
-display: flex;
-flex-flow: column;
-}
-#map {
-  width: 100vw;
-  height: 100vh;
-}
-#weather {
- width: 100vw;
- height: 30vh;
- display: flex;
- flex-flow: column;
-}
-#weather > .forecastMoment {
-	width: 100%;
-	margin: 2px;
-	padding: 2px 0px;
-	text-align: center;
-	background-color: rgba(140,159,189,.6);
-	border-radius: 6px;
-	color: #ace7ef;
-	font-size: 1.1em;
-}
 
-.temp {
-	font-weight: bold;
-	color: #dffdff;
-	font-size: 1.4em;
-}
-}
+  body {
+    background: red;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  main {
+  display: flex;
+  flex-flow: column;
+  }
+  #map {
+    width: 100vw;
+    height: 100vh;
+  }
+  #weather {
+   width: 100vw;
+   height: 30vh;
+   display: flex;
+   flex-flow: column;
+  }
+  #weather > .forecastMoment {
+  	width: 100%;
+  	margin: 2px;
+  	padding: 2px 0px;
+  	text-align: center;
+  	background-color: rgba(140,159,189,.6);
+  	border-radius: 6px;
+  	color: #ace7ef;
+  	font-size: 1.1em;
+  }
 
+  .temp {
+  	font-weight: bold;
+  	color: #dffdff;
+  	font-size: 1.4em;
+  }
+}
+/*
 @media only screen and (min-width: 321px) and (max-width: 720px) {
   h1 {
     font-size: 2rem;
@@ -111,4 +116,4 @@ main {
 	color: #dffdff;
 	font-size: 1.2em;
 }
-}
+} */
